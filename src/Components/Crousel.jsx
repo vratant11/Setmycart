@@ -9,7 +9,7 @@ import "./crousel.css";
 import { Pagination, Navigation, Autoplay } from "swiper";
 const Crousel = () => {
   return (
-    <>
+    <div className="crousels">
       <Swiper
         pagination={{
           type: "progressbar",
@@ -32,7 +32,7 @@ const Crousel = () => {
           />
         </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 };
 
