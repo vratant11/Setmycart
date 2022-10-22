@@ -22,7 +22,7 @@ export default function Display() {
           clickable: true,
         }}
         modules={[Pagination, Autoplay]}
-        autoplay={{ delay: 2500 }}
+        autoplay={{ delay: 1500 }}
         className="mySwiper"
       >
         <SwiperSlide>

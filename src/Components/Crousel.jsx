@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "./crousel.css";
 
 // import required modules
-import { Pagination, Navigation } from "swiper";
+import { Pagination, Navigation,Autoplay } from "swiper";
 const Crousel = () => {
   return (
     <>
@@ -15,7 +15,8 @@ const Crousel = () => {
           type: "progressbar",
         }}
         navigation={true}
-        modules={[Pagination, Navigation]}
+        modules={[Pagination, Navigation,Autoplay]}
+        autoplay={{ delay: 3500 }}
         className="mySwiper"
       >
         <SwiperSlide>
