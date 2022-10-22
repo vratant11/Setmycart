@@ -20,7 +20,7 @@ const Crousel = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="/assets/slide1.jpg" alt="Error" />
+          <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHw%3D&w=1000&q=80" alt="Error" />
         </SwiperSlide>
         <SwiperSlide>
           <img src="https://images.businessnewsdaily.com/app/uploads/2022/04/04073347/Laptop_undrey_getty.jpg" alt="Error" />
