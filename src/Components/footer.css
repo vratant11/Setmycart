@@ -5,7 +5,7 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem;
-    gap: 10rem;
+    gap: 8rem;
     /* border: 2px solid black; */
     /* box-shadow: 10px 2px 5px 10px grey; */
     box-shadow: 0px 1px 20px 11px rgba(128, 128, 128, 0.5);
@@ -17,8 +17,9 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: flex-start;
-
-
+    box-shadow: 0px 1px 20px 11px rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+    padding: 0.5rem;
 }
 .foot2{
     /* width: 25%; */
@@ -27,6 +28,9 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 1px 20px 11px rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+    padding: 0.5rem;
     
     /* background-color: antiquewhite; */
 }
@@ -37,6 +41,9 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    box-shadow: 0px 1px 20px 11px rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+    padding: 0.5rem;
 }
 .foot4{
     /* width: 25%; */
@@ -44,6 +51,9 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    box-shadow: 0px 1px 20px 11px rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+    padding: 0.5rem;
 }
 .icon{
     font-size: 3rem !important;

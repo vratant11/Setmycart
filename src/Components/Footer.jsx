@@ -25,7 +25,7 @@ const Footer = () => {
         <div className="customerservice">
           <h2>Customer Service</h2>
 
-          <ul >
+          <ul type='none' >
             <li>Privacy Policy</li>
             <li>Terms and conditions</li>
             <li>About Us</li>
