@@ -13,7 +13,7 @@ import Display from './Components/Display';
 // import Mobileheader from './Components/Mobileheader'
 const App = () => {
   return (
-    <>
+    <div className='background'>
     <Header/>
     <Crousel/>
     <Card/>
@@ -21,7 +21,7 @@ const App = () => {
     <Display/>
     <Testimonial/>
     <Footer/>
-    </>
+    </div>
   )
 }
 
