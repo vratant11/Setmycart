@@ -25,8 +25,9 @@ export default function MediaCard() {
           </Typography>
           <AdbIcon className="icon" />
           <Typography variant="body2" color="text.secondary">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut quam
-            tenetur pariatur impedit harum, sit ipsa ipsum omnis error ut?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+            dolorum explicabo similique hic dolorem delectus corporis atque
+            repellendus tempora repellat.
           </Typography>
         </CardContent>
         <CardActions
