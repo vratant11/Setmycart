@@ -10,7 +10,8 @@ import "./card.css";
 
 export default function MediaCard() {
   return (
-    <div className="cards">
+    <div className="cards" data-aos="fade-up"
+    data-aos-duration="3000">
       <Card sx={{ maxWidth: 345 }}>
         <CardContent
           sx={{
