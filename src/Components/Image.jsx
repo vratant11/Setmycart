@@ -16,7 +16,6 @@ const Image = () => {
           ad accusantium dicta reprehenderit maiores velit nemo, facilis modi,
           ducimus eveniet suscipit inventore, quisquam veniam aspernatur. Cumque
           impedit illo laboriosam.
-          
          
         </p>
       </div>

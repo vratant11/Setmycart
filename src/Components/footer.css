@@ -5,6 +5,7 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem;
+    gap: 2rem;
     /* border: 2px solid black; */
     /* box-shadow: 10px 2px 5px 10px grey; */
 
@@ -15,11 +16,12 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+
 
 }
 .foot2{
-    width: 25%;
+    /* width: 25%; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -30,14 +32,14 @@
 }
 
 .foot3{
-    width: 25%;
+    /* width: 25%; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
 }
 .foot4{
-    width: 25%;
+    /* width: 25%; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -45,4 +47,19 @@
 }
 .icon{
     font-size: 2rem !important;
+}
+@media (max-width: 675px){
+    .footer{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .foot1{
+        width: 30%;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .foot3{
+        align-items: center;
+    }
 }
