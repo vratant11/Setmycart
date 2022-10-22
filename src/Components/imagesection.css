@@ -36,6 +36,7 @@ text-align: justify;
 }
 @media (max-width: 656px){
  .imagebox{
+    width: 70%;
     flex-direction: column;
     text-align: center;
     padding: 1;
