@@ -23,7 +23,7 @@ const Crousel = () => {
           <img src="/assets/slide1.jpg" alt="Error" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="/assets/slide3.jpg" alt="Error" />
+          <img src="https://images.businessnewsdaily.com/app/uploads/2022/04/04073347/Laptop_undrey_getty.jpg" alt="Error" />
         </SwiperSlide>
         <SwiperSlide>
           <img
