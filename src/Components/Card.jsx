@@ -13,7 +13,7 @@ export default function MediaCard() {
     <div className='cards'>
     <Card sx={{ maxWidth: 345 }}>
       
-      <CardContent>
+      <CardContent sx={{display: 'flex' , justifyContent: 'center',flexDirection: 'column',alignItems: 'center'}}>
         <Typography gutterBottom variant="h5" component="div">
           Card1
         </Typography>
@@ -23,14 +23,14 @@ export default function MediaCard() {
           species, ranging across all continents except Antarctica
         </Typography>
       </CardContent>
-      <CardActions>
+      <CardActions sx={{display: 'flex' , justifyContent: 'center',alignItems: 'center'}}>
         <Button size="small">Share</Button>
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
     <Card sx={{ maxWidth: 345 }}>
       
-      <CardContent>
+      <CardContent sx={{display: 'flex' , justifyContent: 'center',flexDirection: 'column',alignItems: 'center'}}>
         <Typography gutterBottom variant="h5" component="div">
          Card2
         </Typography>
@@ -40,14 +40,14 @@ export default function MediaCard() {
           species, ranging across all continents except Antarctica
         </Typography>
       </CardContent>
-      <CardActions>
+      <CardActions sx={{display: 'flex' , justifyContent: 'center',alignItems: 'center'}}>
         <Button size="small">Share</Button>
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
     <Card sx={{ maxWidth: 345 }}>
       
-      <CardContent>
+      <CardContent sx={{display: 'flex' , justifyContent: 'center',flexDirection: 'column',alignItems: 'center'}}>
         <Typography gutterBottom variant="h5" component="div">
           Card3
         </Typography>
@@ -57,14 +57,14 @@ export default function MediaCard() {
           species, ranging across all continents except Antarctica
         </Typography>
       </CardContent>
-      <CardActions>
+      <CardActions sx={{display: 'flex' , justifyContent: 'center',alignItems: 'center'}}>
         <Button size="small">Share</Button>
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
     <Card sx={{ maxWidth: 345 }}>
      
-      <CardContent>
+      <CardContent sx={{display: 'flex' , justifyContent: 'center',flexDirection: 'column',alignItems: 'center'}}>
         <Typography gutterBottom variant="h5" component="div">
           Card4
         </Typography>
@@ -74,7 +74,7 @@ export default function MediaCard() {
           species, ranging across all continents except Antarctica
         </Typography>
       </CardContent>
-      <CardActions>
+      <CardActions sx={{display: 'flex' , justifyContent: 'center',alignItems: 'center'}}>
         <Button size="small">Share</Button>
         <Button size="small">Learn More</Button>
       </CardActions>

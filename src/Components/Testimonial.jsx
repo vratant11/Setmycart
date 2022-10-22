@@ -18,7 +18,7 @@ export default function Testimonial() {
       <h1>Testimonial</h1>
       <Swiper
         slidesPerView={2}
-        spaceBetween={5}
+        spaceBetween={10}
         pagination={{
           clickable: true,
         }}
